@@ -1,0 +1,66 @@
+.alert-notification-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.heading {
+  color: black;
+  font-family: Roboto;
+  font-size: 30px;
+}
+.success-icon {
+  color: #2dca73;
+  width: 30px;
+  height: 30px;
+}
+.error-icon {
+  width: 30px;
+  height: 30px;
+  color: #ff0b37;
+}
+.warning-icon {
+  width: 30px;
+  height: 30px;
+  color: #ffb800;
+}
+.info-icon{
+  width: 30px;
+  height: 30px;
+  color: #0f81e0;
+}
+.alert-msg-div {
+  margin-left: 20px;
+}
+.success-title {
+  color: #2dca73;
+  font-family: Roboto;
+  font-size: 25px;
+  margin: 0px;
+}
+.error-title {
+  font-family: Roboto;
+  font-size: 25px;
+  margin: 0px;
+  color: #ff0b37;
+}
+.warning-title {
+  font-family: Roboto;
+  font-size: 25px;
+  margin: 0px;
+  color: #ffb800;
+}
+.info-title{
+  color: #0f81e0;
+  font-family: Roboto;
+  font-size: 25px;
+  margin: 0px;
+}
+.alert-msg {
+  font-family: Roboto;
+  font-size: 18px;
+  color: #64748b;
+  margin: 0px;
+  padding-top: 10px;
+}
